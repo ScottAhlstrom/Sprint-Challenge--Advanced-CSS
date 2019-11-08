@@ -34,13 +34,31 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    An adaptive website will detect the screen size being used and load the best layout for that device. 
+    A fully responsive website will adapt to any device with flexibility, depending on how the screen is being used (orientation/accessibility).
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    Mobile first design is creating a site/application starting out with a mobile layout first then expanding its features up to a tablet or desktop version of the same content/material. 
+    Desktop first design is just the opposite, where you would create a page for a larger screen/desktop, and then update the features, making necessary adjustments to scale down to a tablet and mobile version. 
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    It is related to a users default browser font-size and can help convert between rem units and pixels. So that if the users browser size is adjusted, the font will adjust as well. It helps to assist with accessibility issues for those who have a harder time seeing/reading the screen at the default setting.
+
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    Preprocessing allows you to write your code (LESS -> CSS) more efficiently and with less chance of errors, providing more tools so you can be more organized and not have to write or repeat yourself so much when writing - DRY coding (don’t repeat yourself)! 
+
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    Just being so new to preprocessing, it’s hard to say which one is my favorite.  I do like the variable concept, in how I can set up a set/specific font style, or background or text color, by setting it up ahead of time, and calling it in with a simple color: @main-color;, for example. 
+	As for right now, the part that I have the hardest time with still would be with nesting things correctly, for a smoother, easier to read code. And then also using the escaping technique. I understand how to setup the value, but still need practice on knowing how and where the best place to enter the values to ensure proper adjustments for screen size. 
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
