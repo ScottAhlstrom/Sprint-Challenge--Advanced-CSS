@@ -6,8 +6,7 @@
 
     img {
       border-radius: 8px;
-      margin-top: 0;
-      padding-top: 0;
+      .mar-pad();
     }
 
     h2 {
@@ -21,8 +20,7 @@
   }
 
   .space-images {
-    display: flex;
-    flex-wrap: wrap;
+    .display();
     width: 100%;
 
     img {
@@ -64,6 +62,7 @@
       }
 
       .btn {
+        .custom-btn(110px, white, black);
       }
     }
 

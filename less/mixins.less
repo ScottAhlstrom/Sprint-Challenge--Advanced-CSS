@@ -1,1 +1,30 @@
 // Mixins Here
+
+.custom-btn(@size, @color, @bg-color){
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    height: 40px;
+    width: @size;
+    color: @color;
+    background-color: @bg-color;
+    text-align: center;
+    padding-top: 3%;
+
+
+    &:hover {
+        color: @bg-color;
+        background-color: @color;
+    }
+
+}
+
+.display(){
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mar-pad(){
+    margin-top: 0;
+    padding-top: 0;
+}
