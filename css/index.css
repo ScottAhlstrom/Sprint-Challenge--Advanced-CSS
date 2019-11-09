@@ -327,3 +327,44 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+#contact-pic {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-left: 20px;
+}
+#contact-pic img {
+  width: 200px;
+  height: 133px;
+  position: absolute;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+#contact-pic img.top:hover {
+  opacity: 0;
+}
+#reach {
+  margin: 20% 20% 7%;
+  padding-left: 13%;
+}
+.table {
+  width: 100%;
+  line-height: 30px;
+  border: 1px solid dimgrey;
+  margin-bottom: 3%;
+}
+.table th {
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 2%;
+  background-color: gainsboro;
+  padding-top: 1.5%;
+}
+.table td {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 40px;
+}
